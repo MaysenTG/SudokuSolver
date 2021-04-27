@@ -30,7 +30,7 @@ while not done:
             if event.key == pygame.K_e:
                 # Choose a random puzzle to solve
                 easypuzzle = random.choice(os.listdir("easypuzzles"))  # change dir name if necessary
-                easypuzzle = "easypuzzles/" + easypuzzle
+                easypuzzle = "easy puzzles/" + easypuzzle
                 firstSnapshot = Sudoku_IO.loadPuzzle(easypuzzle)
                 Solver.solve(firstSnapshot, screen)
                 print("Sudoku Solved!")
