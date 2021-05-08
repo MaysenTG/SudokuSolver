@@ -10,17 +10,7 @@ The main file for this app is SudokuApp.py.
 - Cell.py is a file which aids in viewing the values of each cell.
 
 
-Each Sudoku is represented in a text file in the following format:
-
-1 2 3 4 5 6 7 8 9
-1 2 3 4 5 6 7 8 9
-1 2 3 4 5 6 7 8 9
-1 2 3 4 5 6 7 8 9
-1 2 3 4 5 6 7 8 9
-1 2 3 4 5 6 7 8 9
-1 2 3 4 5 6 7 8 9
-1 2 3 4 5 6 7 8 9
-1 2 3 4 5 6 7 8 9
+Each Sudoku is represented in a text file in a 9x9 format with spaces between each number on the row.
 
 Where each number represents the cell. An empty cell is represented by 0
 
